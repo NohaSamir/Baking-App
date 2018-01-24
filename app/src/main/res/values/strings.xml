@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Baking</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="error_message">Something went wrong, Please try again.</string>
+    <string name="title_recipe_list">Recipe</string>
+    <string name="title_recipe_detail">Recipe Detail</string>
+    <string name="title_recipedetails_list">RecipeDetails</string>
+    <string name="title_recipedetails_detail">RecipeDetails Detail</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>

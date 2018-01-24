@@ -1,0 +1,47 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.nsamir.bakingapp.activity.RecipeDetailsActivity"
+    tools:ignore="MergeRootFrame">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/recipe_details_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" >
+    </android.support.v4.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:background="@color/colorPrimaryLight">
+        <Button
+            android:id="@+id/previousBtn"
+            android:layout_width="@dimen/arrow_size"
+            android:layout_height="@dimen/arrow_size"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@mipmap/ic_left_arrow"
+            android:textColor="@color/white"
+            android:onClick="getPreviousStep"
+            android:layout_centerVertical="true"
+            />
+
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="@dimen/arrow_size"
+            android:layout_height="@dimen/arrow_size"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@mipmap/ic_right_arrow"
+            android:textColor="@color/white"
+            android:onClick="getNextStep"/>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,13 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.nsamir.bakingapp.activity.RecipeDetailsActivity"
+    tools:ignore="MergeRootFrame">
+   <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/videoPlayer">
+   </com.google.android.exoplayer2.ui.SimpleExoPlayerView>
+</android.support.design.widget.CoordinatorLayout>
